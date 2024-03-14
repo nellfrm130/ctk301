@@ -1,0 +1,25 @@
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textcenter { text-align: center 
+}
+   
+.textleft { text-align: left;
+
+}
+h1 { font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+color: orange;
+}
+h2 { font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: orange;
+    }
+.imgbox { border: 2px solid black;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: yellow;
+}
+
+body { background-image: url(a5bg.png);
+}
