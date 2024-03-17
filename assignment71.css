@@ -1,0 +1,99 @@
+.jolo{ margin: 1em auto; 
+        width: 960px;
+      border: 5px solid blue;
+     display: grid;
+      grid-template-columns: repeat(12,1fr);
+
+}
+
+.h1{ color: lightblue;
+    grid-column: span 12;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     width: 920px;
+    padding: 20px;
+      font-style: italic;
+}
+
+div{ background-color:darkblue;
+}
+
+nav{ grid-column: span 12;
+    margin-top: -10px;
+}
+
+nav ul{ list-style-type: none;
+        padding: 0;
+      margin: 0;
+}
+
+nav li{ width 230px
+        background-image: linear-gradient(darkblue,lightblue);
+        padding: 0;
+        margin-right: 5px;
+      display: inline-block;
+}
+
+nav li a{ font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+         color: lightblue;
+           text-decoration: none;
+          display: block;
+         padding: 17px;
+}
+
+nav li a :hover{ color: white;
+                 text-decoration: none;
+
+
+
+}
+
+.number1{ grid-column: span 3;
+background-color: lightblue;
+padding: 20px;
+}
+
+.h21{ color: darkblue;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+border-bottom: 5px solid darkblue;
+padding-bottom: 10px;
+
+}
+
+.you{ font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+text-align: justify;
+
+}
+
+.number2{ grid-column: span 9;
+background-color: white;
+padding: 20px;
+}
+
+.h22{ color: darkblue;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+border-bottom: 5px solid darkblue;
+padding-bottom: 10px;
+}
+
+.lol{ font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+footer{ grid-column: span 12;
+background-color: red;
+padding: 10px;
+border-top: 5px solid darkblue;
+
+}
+
+.pit{ float: left;
+border: 3px darkblue solid;
+margin-right: 20px;
+
+}
