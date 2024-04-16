@@ -1,0 +1,35 @@
+header {
+}
+
+nav {
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 10;
+}
+
+nav li {
+  width: 200px;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  border: 10px black; 
+  
+}
+
+aside {
+}
+
+footer {
+}

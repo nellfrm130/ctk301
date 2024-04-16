@@ -1,0 +1,14 @@
+#golo {margin: 1em auto; width: 960px; border: 5px solid rgb(252, 3, 3); background-image:url(OIP.jpeg); display: grid; grid-template-columns: repeat(12,1fr); 
+
+
+}
+
+.hi{ grid-column: span 8; 
+
+
+}
+
+.bye{ grid-column: span 4; color: red;
+
+
+}
