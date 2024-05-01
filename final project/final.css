@@ -44,8 +44,9 @@ nav{
 
 nav img{ 
     width: 100%;
+}
 
-
+.top{ grid-column: span 12; font-size: 32px; color: red;
 
 
 }
