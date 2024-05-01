@@ -1,0 +1,51 @@
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid #000000;
+    background-image: url(srt.jpg);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+.hi{
+  margin-top: 500px;
+  grid-column: span 12;
+}
+
+.lol{
+
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 10px 10px 10px #999; 
+    text-shadow: 2px 2px 2px #000;
+
+}
+
+.you{
+width: 100%;
+
+}
+
+.no{ 
+    
+    width: 100%;
+    box-shadow: 10px 10px 10px #999; 
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000;
+}
+    
+nav{ 
+    width: 200px;
+
+
+
+
+}
+
+nav img{ 
+    width: 100%;
+
+
+
+
+}
