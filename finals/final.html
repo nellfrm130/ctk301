@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Front Page</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+   />
+
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+   <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+   />
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+   <link href="final.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper"> 
+        <img class="to" src="IMG_0624.jpg"  alt="">
+        <main class="we">
+        <h1>About me </h1>
+        <p> My name is Lonnell Couch I like to make digtal arts like cover arts and logos for music I started to do this a couple months ago I didnt know I had the talent to make these type of things.
+        </p> 
+       </main>
+
+       <div id="photo">
+            <figure>
+                <a href="page2.html" > gallery
+                    <img src="final11.png">
+                </a>
+            <figcaption>Image 1</figcaption>
+            </figure>
+            <figure>
+                <a href="page3.html" > gallery
+                    <img src="que-skeletor.png">
+                </a>
+            <figcaption>Image 2</figcaption>
+            </figure>
+            <figure>
+                <a href="page4.html" > gallery
+                    <img src="logo.png">
+                </a>
+            <figcaption>Image 1</figcaption>
+            </figure>
+            <main class="hi">
+                <h1> Fast music</h1> 
+            
+            
+            </main> 
+        </div> 
+    </div>
+    
+
+
+    <div id="myCarousel" class="f-carousel">
+        <div class="f-carousel__slide"><img src="111.png"></div>
+        <div class="f-carousel__slide"><img src="222.jpg"></div>
+        <div class="f-carousel__slide"><img src="333.png"></div>
+      </div>
+
+
+ <script>   
+    Fancybox.bind("[data-fancybox]", {});
+    
+    
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: true };
+    
+    new Carousel(container, options);
+    
+</script>
+</body>

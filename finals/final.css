@@ -1,0 +1,98 @@
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid #000000;
+    background-image: url(srt.jpg);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+.hi{
+  margin-top: 500px; grid-column: span 8; color: darkred; font-size: 2em;s
+  
+}
+
+.lol{
+
+    border-radius: 10px; grid-column: span 8; color: darkred; font-size: 2em;
+    width: 100%;
+    box-shadow: 10px 10px 10px #999; 
+    text-shadow: 2px 2px 2px #000;
+
+}
+
+.you{
+width: 100%;
+
+}
+
+.no{ 
+    
+    width: 100%;
+    box-shadow: 10px 10px 10px #999; 
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000;
+}
+    
+nav{ 
+    width: 200px;
+
+
+
+
+}
+
+nav img{ 
+    width: 100%;
+}
+
+.top{ grid-column: span 12; font-size: 32px; color: red;
+
+
+}
+
+.to{ width: 250px; grid-column: span 4;
+
+
+}
+
+.we{ grid-column: span 8; color: darkred; font-size: xx-large; font-style: inherit;
+    margin-right: 20px;
+
+
+}
+
+#photo {
+    margin: 0 auto; /* center gallery */
+    width: 960px; /* set width */
+    border: 1px solid red;
+    /* Three column grid with 1em gap */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-column: span 12;
+  }
+  
+  figure {
+    display: block; /* make figure a block */
+    text-align: center; /* center content */
+    padding: 1em;
+    border: 1px solid green;
+    transition: all 1s; /* hover transition */
+  }
+  
+  /* make the image fit inside the figure block */
+  figure img {
+    width: 100%;
+  }
+  
+  /* on hover, transform the contents of figure to be 1.1 times larger */
+  
+  figure:hover {
+    transform: scale(1.1);
+  }
+
+  .ko{ margin-left: -630px;
+
+
+  }
